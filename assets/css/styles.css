@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+body {
+    background-color: #03001C;
+}
+
+header {
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+footer {
+    font-family: 'Roboto Mono', monospace;
+    align-items: end;
+    justify-content: end;
+    color: white;
+}
+
+#deck {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #263159;
+}
+
+#deck div {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
